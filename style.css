@@ -1,0 +1,140 @@
+/*
+#0A99FE - Menu ativo (clicado)
+#0A99FE com 10% de opacidade - Menu inativo
+#1B1B1B - Títulos
+#868383 - Textos
+#FFFFFF - Fundo da Barra de navegação e da página
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.flex{
+    display: flex;
+}
+.cabecalho{
+    border-bottom: 1px solid rgb(0, 0, 0, 30%);
+    background-color: #FFFFFF;
+    box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.082);
+    
+}
+.logoFlex{
+    display: flex;
+    justify-content: start;
+    margin: 10px;
+}
+
+.menu{
+    width: 100vw;
+    margin: 20px;
+}
+
+.menuFlex{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+button{
+    height:40px;
+    width: 150px;
+    border-radius: 7px;
+    margin: 0px 20px 0px 20px;
+    border: transparent;
+    font-size: 20px;
+}
+.botaoproduto{
+    background-color: rgba(10, 153, 254, 0,1);
+    color: rgb(10, 152, 254);
+}
+.botaoproduto:hover{
+    transition: 0.4s;
+    background-color: rgb(10, 152, 254);
+    color: #FFFFFF;
+    opacity: 100%;
+}
+.botaocontato{
+    background-color: rgba(10, 153, 254, 0,1);
+    color:rgb(10, 152, 254);
+    opacity: 90%;
+}
+.botaocontato:hover{
+    transition: 0.4s;
+    background-color: rgb(10, 152, 254);
+    color: #FFFFFF;
+    opacity: 100%;
+}
+.mainFlex{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ background-color: #1b1b1b18;
+}
+
+.todosOsItens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulos{
+    font-size: 20px;
+    color: #1B1B1B;
+}
+
+.listaDeItens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+.itens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.itens{
+    width: 207px;
+    height: 275px;
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+.divImg{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagensPaint{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+/*
+.type{
+    color: #868383;
+    margin-top: 8px;
+}
+*/
+.price{
+    margin-top: 8px;
+    font-size: 16px;
+    color: green;
+}
